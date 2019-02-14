@@ -1,6 +1,6 @@
 #include<fstream>
 using namespace std;
-fstream fin("date6.in",ios::in), fout("date6.out",ios::out);
+fstream fin("date7.in",ios::in), fout("date7.out",ios::out);
 int main(){
     long long a,b,i=0,j=1,aux;
     fin>>a>>b;
