@@ -1,6 +1,6 @@
 #include<fstream>
 using namespace std;
-fstream fin("date5.in",ios::in),fout("date5.out",ios::out);
+fstream fin("date.in",ios::in),fout("date.out",ios::out);
 int sumcif(int a){
     int sum=0;
     if(a/10==0){
