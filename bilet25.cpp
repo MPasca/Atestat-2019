@@ -1,7 +1,7 @@
 #include<fstream>
 #include<iostream>
 using namespace std;
-fstream fin("date25.in",ios::in),fout("date25.out",ios::out);
+fstream fin("date.in",ios::in),fout("date.out",ios::out);
 int v[51];
 int main(){
     int n,x,i,j,m;
