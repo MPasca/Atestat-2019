@@ -1,7 +1,7 @@
 #include<fstream>
 #include<bitset>
 using namespace std;
-fstream fin("date21.in",ios::in),fout("date21.out",ios::out);
+fstream fin("date.in",ios::in),fout("date.out",ios::out);
 bitset<10>ap;
 int main(){
     int n;
