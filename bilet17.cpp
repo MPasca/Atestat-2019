@@ -1,6 +1,6 @@
 #include<fstream>
 using namespace std;
-fstream fin("date17.in",ios::in),fout("date17.out",ios::out);
+fstream fin("date.in",ios::in),fout("date.out",ios::out);
 int v[101],w[101];
 int main(){
     int n;
