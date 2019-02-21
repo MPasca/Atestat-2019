@@ -7,9 +7,11 @@ char cuv[25],aux[25];
 int main(){
     fin>>cuv;
     for(int i=0;i<strlen(cuv);i++){
-        strcpy(aux,cuv);
-        strcpy(aux+i,aux+i+1);
-        fout<<aux<<"\n";
+        if(cuv[i]!=cuv[i-1]){
+            strcpy(aux,cuv);
+            strcpy(aux+i,aux+i+1);
+            fout<<aux<<"\n";
+        }
     }
     fin.close();
     fout.close();
