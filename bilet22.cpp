@@ -1,7 +1,7 @@
 #include<cmath>
 #include<fstream>
 using namespace std;
-fstream fin("date22.in",ios::in),fout("date22.out",ios::out);
+fstream fin("date.in",ios::in),fout("date.out",ios::out);
 bool prim(int x){
     for(int d=2;d<=sqrt(x);d++){
         if(x%d==0){
