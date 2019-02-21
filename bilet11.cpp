@@ -1,6 +1,6 @@
 #include<fstream>
 using namespace std;
-fstream fin("date11.in",ios::in), fout("date11.out",ios::out);
+fstream fin("date.in",ios::in), fout("date.out",ios::out);
 bool fibo(int x){
     int aux,a=1,b=0;
     while(a+b<x){
