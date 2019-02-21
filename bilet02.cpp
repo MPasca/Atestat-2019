@@ -2,17 +2,9 @@
 using namespace std;
 fstream fin("date.in",ios::in), fout("date.out",ios::out);
 int main(){
-    int n,s=0;
+    int n;
     fin>>n;
-    while(n>9){
-        s+=n%10;
-        n/=10;
-        if(n<10){
-            n+=s;
-            s=0;
-        }
-    }
-    fout<<n;
+    fout>>n%9; //proprietate
     fin.close();
     fout.close();
     return 0;
