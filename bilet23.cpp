@@ -1,6 +1,6 @@
 #include<fstream>
 using namespace std;
-fstream fin("date23.in",ios::in),fout("date23.out",ios::out);
+fstream fin("date.in",ios::in),fout("date.out",ios::out);
 int putere(int n,int d){
     int cate=0;
     while(n%d==0){
