@@ -43,7 +43,8 @@ CREATE TABLE `locatari` (
   `idl` int(11) NOT NULL,
   `nume` text NOT NULL,
   `prenume` text NOT NULL,
-  `loc_de_munca` text NOT NULL
+  `loc_de_munca` text NOT NULL,
+  `ida` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
