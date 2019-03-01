@@ -1,0 +1,1 @@
+Select * from abonati where month(data_nasterii)=month(now()) and 
