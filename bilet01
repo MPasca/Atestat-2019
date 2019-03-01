@@ -1,0 +1,3 @@
+4. Select * from clienti where prenume="Maria"
+5. Select clienti.*,denumire from clienti,destinatii where clienti.idd=destinatii.idd
+6. Select count(idc) from clienti where clienti.idd=destinatii.idd and denumire="Berlin"
