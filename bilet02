@@ -1,1 +1,3 @@
-Select * from abonati where month(data_nasterii)=month(now()) and 
+4.SELECT * from abonati where month(data_nasterii)=month(now()) and day(data_nasterii)=day(now())
+5.SELECT count(idi) from interventii group by tip_interventie
+6.SELECT interventii.* from interventii,abonati where interventii.id=abonati.id and abonati.nume="Pasca" and abonati.prenume="Maria"
