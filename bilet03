@@ -1,0 +1,3 @@
+4.SELECT numar_de_inventar,componente.* from calculatoare,componente where calculatoare.eticheta="asfa" and calculatoare.idi=componente.idi
+5.SELECT * from componente where datediff(now(),componente.data_fabricarii)>730
+6.SELECT calculatoare.* from calculatoare,componente where calculatoare.idi=componente.idi and componente.stare="defect"
