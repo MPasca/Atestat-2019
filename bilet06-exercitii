@@ -1,0 +1,3 @@
+4.Select count(idl) from locatari,apartamente where apartamente.ida=locatari.ida and apartamente.suma_restanta>0
+5.Select max(suma_restanta),nume,prenume from apartamente,locatari where apartamente.ida=locatari.ida
+6.Select locatari.*,apartamente.numar from locatari,apartamente where apartamente.ida=locatari.ida and locatari.loc_de_munca="LAPI"
