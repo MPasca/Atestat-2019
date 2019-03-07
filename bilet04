@@ -1,0 +1,3 @@
+4. SELECT * from pictor where month(pictor.Data_nastere)=month(now()) and day(pictor.Data_nastere)=day(now())
+5. SELECT nume,prenume from pictor HAVING max(pictor.Data_nastere)
+6.
