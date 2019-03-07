@@ -1,0 +1,3 @@
+4. SELECT durata/8 FROM `cursuri`
+5. Select max(durata) from cursuri group by idc
+6. Select cursuri.* from cursuri,colaboratori where nr_locuri>5 and cursuri.id=colaboratori.id and colaboratori.nume="Radu" and colaboratori.prenume="Alisia"
