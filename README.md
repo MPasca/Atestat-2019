@@ -1,1 +1,2 @@
-# Atestat-2019-programare
+# Programare
+Se repeta primele 25 de bilete
